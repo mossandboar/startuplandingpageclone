@@ -1,0 +1,293 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+
+}
+
+
+/**remember to remove this css when done with wire frame**/
+
+body {
+    background-color: LightGrey;
+}
+div {
+    border: 0px solid Chocolate;
+
+
+}
+}
+/**==================================**/
+
+/* Navigation Section */
+.top-navigation {
+    color:white;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    display:block;
+    margin:0 auto;
+    padding:0 auto;
+    font-size:100%;
+    vertical-align: baseline;
+    box-sizing:border-box;
+}
+.top-navigation .logo{
+
+    height: 4.375rem;
+    margin-left: 35px;
+}
+}
+
+.top-navigation > .content {
+    background-color: white;
+    height: 22px;
+
+}
+/** Links for navbar **/
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+.font-select{
+     font-family: 'Roboto', sans-serif;
+     font-size: 16px;
+     color: #838994;
+     letter-spacing: 0.03em;
+}
+/** body **/
+.introduction {
+    color: white;
+    background-image: url(../images/first-background.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
+.introduction .buttons{
+    color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+.introduction h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+.button {
+    background-color: #b92704;
+    display: block;
+    width:177px;
+    font-size:35px;
+    color: white;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding-left:15px;
+    padding-right: 15px;
+    margin:0 auto;
+    margin-top:276px;
+    margin-bottom:15px;
+}
+
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+
+
+
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    box-sizing: border-box;
+    height: 4em;
+
+}
+
+@media (min-width: 62rem)
+.content {
+    width: 60rem;
+}
+@media (min-width: 48rem)
+.content {
+    width: 46rem;
+}
+.content {
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    display:inline;
+}
+
+ul .links{
+
+    padding-right: 90px
+}
+
+.top-navigation .content .links ul{
+    padding-right: 90px;
+}
+
+/* Remove the default padding underneath the menu */
+section.introduction .content {
+    padding-top: 153px;
+}
+
+/* Make all the text in the top introduction section centered */
+section.introduction .content h1, h2 {
+  text-align: center;
+}
+
+/* Style the "LEARN MORE" button  ... */
+section.introduction .content .buttons button {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-width: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 35px;
+  background-color: #b92704;
+  color: #ece6e4;
+}
+
+section.cases {
+  padding-bottom: 497px;
+}
+
+section.cases .content h2 {
+  color: #080808;
+  font-size: 45px;
+  text-align: center
+}
+
+section.cases .content ul.devices {
+  display: inline-flex;
+}
+
+section.cases .content ul.devices li img.img1 {
+  padding-left: 258px;
+}
+
+section.cases .content ul.devices li img.img2 {
+  padding-left: 126px;
+}
+
+section.cases .content ul.devices li img.img3 {
+  padding-left: 122px;
+}
+
+/* tessa look at this later to debug device+text section */
+section.cases .content ul.devices {
+}
+
+section.cases .content h3.internet {
+  color: #1f1f1d;
+  margin-right: -72px;
+  padding-left: 238px;
+}
+
+section.cases .content h3.boost {
+  padding-left: 138px;
+  padding-top: 0px;
+  margin-right: -99px;
+  margin-left: -46px;
+
+}
+
+section.cases .content h3.pay {
+  margin-left: -96px;
+  padding-left: 194px;
+}
+
+footer.social .content h5 {
+  text-align: center;
+  margin-top: -306px;
+}
+
+footer.social .content ul.icons {
+  padding-left: 503px;
+}
+
+footer.social .content ul.icons li.twitter {
+  font-size: 26px;
+}
+
+footer.social .content ul.icons li.twitter i {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: blue;
+}
+
+footer.social .content ul.icons li.facebook i {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  color: #497f86;
+}
+
+footer.social .content ul.icons li.instagram {
+  padding-left: 2px;
+}
+
+footer.social .content ul.icons li.instagram i {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  color: #397982;
+}
+
+span.copy {
+  padding-left: 498px;
+}
